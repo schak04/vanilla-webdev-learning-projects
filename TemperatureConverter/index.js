@@ -9,12 +9,12 @@ function convert() {
     if (toFahrenheit.checked) {
         let celcTemp = temperature;
         temperature = (temperature*(9/5))+32;
-        result.textContent = `${celcTemp}°C = ${temperature}°F`; //degrees symbol on Windows: Alt+0176 (numlock on -> numeric keypad, not the number row above alphabets)
+        result.textContent = `${celcTemp}°C = ${temperature.toFixed(1)}°F`; //degrees symbol on Windows: Alt+0176 (numlock on -> numeric keypad, not the number row above alphabets)
     }
     else if (toCelsius.checked) {
         let fahrTemp = temperature;
         temperature = (temperature - 32)*(5/9);
-        result.textContent = `${fahrTemp}°F = ${temperature}°C`;
+        result.textContent = `${fahrTemp}°F = ${temperature.toFixed(1)}°C`;
     }
     else {
         result.textContent = "Select a unit first";
