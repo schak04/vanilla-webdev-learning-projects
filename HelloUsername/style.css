@@ -29,6 +29,10 @@ button:hover {
     background-color: #005fa3;
 }
 
+button:active {
+    background-color: #003b64;
+}
+
 input {
     padding: 10px;
     margin: 15px;

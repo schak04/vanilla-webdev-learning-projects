@@ -34,3 +34,7 @@ body {
     color: white;
     transform: translateY(-1px);
 }
+
+.buttons:active {
+    background-color: rgb(8, 100, 11);
+}
