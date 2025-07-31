@@ -1,3 +1,3 @@
 # Micro Vanilla Web Dev Projects
 
-> Written for practice
+> Written for practice and learning.
