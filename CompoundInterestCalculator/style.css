@@ -1,0 +1,71 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 0%);
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    color: hsl(203, 94%, 50%);
+    text-decoration: underline hsla(203, 94%, 50%, 0.414);
+}
+
+form {
+    background-color: hsl(0, 2%, 10%);
+    color: hsl(203, 94%, 50%);
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px hsla(0, 0%, 32%, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+input {
+    text-align: center;
+    font-size: 2em;
+    background-color: hsl(0, 2%, 10%);
+    color: hsl(203, 91%, 70%);
+    width: 50%;
+    border: 2px solid hsla(203, 94%, 50%, 0.25);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 2em;
+    background-color: aquamarine;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: hsl(203, 94%, 70%);
+}
+
+button:active {
+    background-color: hsla(203, 94%, 50%);
+    transform: scale(0.98);
+}
+
+#resultContainer {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#result {
+    color: aquamarine;
+}
