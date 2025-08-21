@@ -7,6 +7,7 @@ It also contains links to slightly bigger (mini) web projects, that have their o
 
 ## Author
 
-[Saptaparno Chakraborty](https://github.com/schak04)
+Copyright (c) 2025 [Saptaparno Chakraborty](https://github.com/schak04).  
+All rights reserved.
 
 ---
