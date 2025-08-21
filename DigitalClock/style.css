@@ -23,3 +23,18 @@ body {
     background-color: hsla(175, 100%, 54%, 0.12);
     width: 100%;
 }
+
+#toggleFormatBtn {
+    font-weight: bold;
+    background-color: rgba(0, 200, 255, 0.8);
+    border: none; border-radius: 20px; margin: 10px 10px;
+    cursor: pointer;
+}
+
+#toggleFormatBtn:hover {
+    background-color: rgba(0, 200, 255);
+}
+
+#toggleFormatBtn:active {
+    transform: scale(0.98);
+}
