@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+}
+
+h1 {
+    color: hsl(163, 100%, 50%);
+}
+
+.choices {
+    margin-bottom: 30px;
+}
+
+.choices button {
+    background-color: black;
+    cursor: pointer;
+    font-size: 5rem;
+    min-width: 60px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 200px;
+    transition: background-color 0.5s ease;
+}
+
+.choices button:hover {
+    background-color: hsl(163, 100%, 50%);
+}
+
+.choices button:active {
+    background-color: hsla(163, 100%, 50%, 0.523);
+}
+
+#display {
+    color: hsl(163, 100%, 50%);
+    font-size: 2rem;
+}
+
+#resultDisplay {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.greenText {
+    color: hsl(110, 90%, 52%);
+}
+
+.redText {
+    color: hsl(0, 100%, 54%);
+}
+
+.blueText {
+    color: hsl(197, 100%, 50%);
+}
