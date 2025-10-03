@@ -47,11 +47,15 @@ h1 {
     text-align: center;
 }
 
-.greenText {
+.scoreDisplay {
+    font-size: 2rem;
+}
+
+.greenText, #playerScoreDisplay {
     color: hsl(110, 90%, 52%);
 }
 
-.redText {
+.redText, #computerScoreDisplay {
     color: hsl(0, 100%, 54%);
 }
 
